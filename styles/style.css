@@ -93,14 +93,13 @@ main {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 50px 30px 0;
+    padding: 40px 30px 0;
     /* margin: 0 150px; */
 }
 
 .featured-image-div div img {
     width: 250px;
     height: 100%;
-    flex-shrink: 0;
 }
 
 .featured-image-div div p {
@@ -115,7 +114,7 @@ main {
 /* service section style  */
 
 .service-container {
-    margin: 128px 150px 150px;
+    margin: 128px 150px;
     display: flex;
     align-items: center;
     gap: 100px;
@@ -146,4 +145,84 @@ main {
     font-style: normal;
     font-weight: 600;
     /* line-height: 35px; */
+}
+
+/* hot deal section style  */
+.hot-deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 185px;
+    padding: 100px 0;
+    margin-bottom: 128px;
+}
+
+.hot-deal-content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-content span {
+    color: #E55473;
+}
+
+.hot-deal-content p {
+    width: 595px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hot-deal-content button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* instagram section styles  */
+.instagram-section {
+    margin: 128px 150px;
+    text-align: center;
+}
+
+.instagram-section h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-section p {
+    width: 595px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto 48px;
+}
+
+/* instagram section styles  */
+.instagram-section-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.instagram-section-images img {
+    width: 250px;
+    height: 100%;
 }
