@@ -30,7 +30,7 @@
 
 .container p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -66,11 +66,17 @@ main {
     text-align: center;
 }
 
+.featured-section h2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .featured-section .featured-description {
     color: rgba(39, 39, 39, 0.60);
     margin: 0 auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -90,11 +96,9 @@ main {
 .featured-image-div div {
     width: 310px;
     height: 400px;
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 40px 30px 0;
-    /* margin: 0 150px; */
 }
 
 .featured-image-div div img {
@@ -105,7 +109,7 @@ main {
 .featured-image-div div p {
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -134,24 +138,19 @@ main {
 .service-container .service-content img {
     width: 88px;
     height: 88px;
-    flex-shrink: 0;
 }
 
 
 .service-container .service-content p {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    /* line-height: 35px; */
 }
 
 /* hot deal section style  */
-.hot-deal-section {
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-}
+
 
 .hot-deal-section {
     display: flex;
@@ -161,11 +160,13 @@ main {
     gap: 185px;
     padding: 100px 0;
     margin-bottom: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
 
 .hot-deal-content h2 {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -177,7 +178,7 @@ main {
     width: 595px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -200,14 +201,14 @@ main {
 
 .instagram-section h3 {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .instagram-section p {
     width: 595px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     margin: 0 auto 48px;
@@ -230,25 +231,24 @@ main {
 .latest-deal-section {
     margin: 0 150px 128px;
     background-image: url('../images/Rectangle\ 9.png');
-    padding: 120px 285px;
+    padding: 100px 285px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    /* width: 100%; */
 }
 
 .latest-deal-section h1 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
 .latest-deal-section p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .latest-deal-section div {
@@ -260,7 +260,7 @@ main {
 
 .latest-deal-section div input {
     width: 100%;
-    padding: 10px;
+    padding: 12.5px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
@@ -274,7 +274,7 @@ main {
 
 .latest-deal-section div button {
     width: 120px;
-    padding: 10px;
+    padding: 12.5px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #E55473;
@@ -282,4 +282,38 @@ main {
     font-size: 20px;
     font-weight: 700;
     border: none;
+}
+
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 128px 0;
+}
+
+footer h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+footer span {
+    color: #FFF;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    margin: 0 auto 32px;
+    /* 166.667% */
+}
+
+footer p small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
