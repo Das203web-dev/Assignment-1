@@ -279,6 +279,14 @@ main {
     border-radius: 50%;
 }
 
+.feedback-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    /* margin-bottom: 35px; */
+}
+
 /* latest section styles  */
 .latest-deal-section {
     margin: 0 150px 128px;
